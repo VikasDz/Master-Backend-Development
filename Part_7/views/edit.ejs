@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Task</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/javascripts/script.js"></script>
+</head>
+
+<body>
+    <div>
+        <section class="text-gray-600 body-font relative">
+            <div class="container px-0 py-20 mx-auto">
+                <div class="flex flex-col text-center w-full mb-2">
+                    <a href="/">Go Back to Home</a>
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Task Edit</h1>
+                </div>
+                <form action="/edit" method="post">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="Task">
+                            Task
+                        </label>
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="Task" type="text" placeholder="Task" name="perviousname" value="<%=filename %>">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="">
+                            New Task Name
+                        </label>
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            id="Description" type="text" placeholder="New Task Name" name="newname">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="">
+                            New Task Description
+                        </label>
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                            id="Description" type="text" value="<%= filedata %>" placeholder="New Task Description" name="Description">
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            type="submit">
+                            Update Task Name
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
