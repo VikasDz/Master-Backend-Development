@@ -26,19 +26,19 @@ Understand how to handle forms, manage sessions, and use cookies in Express.js a
 
 Learn about EJS (Embedded JavaScript) for server-side templating, dynamic routing in Express.js, and initializing a new project.
 
-## Hands-on Practice from Past Lessons | Part 7
+## Hands-on Practice from Past Lessons | Part 7 ✔️
 
 Put your learning into practice with hands-on exercises based on the concepts covered in previous lessons.
 
-## Putting Theory into Practice | Part 8
+## Putting Theory into Practice | Part 8 ✔️
 
 Further practice and consolidate your understanding by implementing real-world projects based on the learned concepts.
 
-## Edit feature code | Part 9
+## Edit feature code | Part 9 ✔️
 
 Implement an edit feature in your backend application to enable users to modify existing data.
 
-## MongoDB, Mongoose & Database server | Part 10
+## MongoDB, Mongoose & Database server | Part 10 ✔️
 
 Explore MongoDB, a NoSQL database, and Mongoose, an ODM (Object Data Modeling) library for MongoDB. Set up a database server and connect to MongoDB.
 
